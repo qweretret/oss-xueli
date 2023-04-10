@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ossjk.qlh.xueli.mapper.SignupMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.ossjk.qlh.xueli.entity.Signup">
+		<result column="crtm" property="crtm" />
+		<result column="mdtm" property="mdtm" />
+		<result column="crer" property="crer" />
+		<result column="mder" property="mder" />
+		<result column="id" property="id" />
+		<result column="bdyear" property="bdyear" />
+
+		<result column="school" property="school" />
+		<result column="level" property="level" />
+		<result column="subject" property="subject" />
+		<result column="type" property="type" />
+		<result column="fjaera" property="fjaera" />
+		<result column="ksarea" property="ksarea" />
+		<result column="ksarea2" property="ksarea2" />
+		<result column="plus" property="plus" />
+		<result column="kqgrd" property="kqgrd" />
+		<result column="byschool" property="byschool" />
+		<result column="bysub" property="bysub" />
+		<result column="bytm" property="bytm" />
+		<result column="byzid" property="byzid" />
+		<result column="bminfo" property="bminfo" />
+		<result column="wbno" property="wbno" />
+		<result column="wbpwd" property="wbpwd" />
+		<result column="bmno" property="bmno" />
+		<result column="postaera" property="postaera" />
+		<result column="remarks" property="remarks" />
+	</resultMap>
+
+	<!-- 通用查询结果列 -->
+	<sql id="Base_Column_List">
+		crtm,
+		mdtm,
+		crer,
+		mder,
+		id,
+		bdyear,
+		school,
+		level,
+		subject,
+		type,
+		fjaera,
+		ksarea,
+		ksarea2,
+		plus,
+		kqgrd,
+		byschool,
+		bysub,
+		bytm,
+		byzid,
+		bminfo,
+		wbno,
+		wbpwd,
+		bmno,
+		postaera,
+		remarks
+	</sql>
+
+</mapper>

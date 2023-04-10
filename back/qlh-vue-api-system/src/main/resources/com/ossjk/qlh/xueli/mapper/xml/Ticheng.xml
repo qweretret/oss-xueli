@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ossjk.qlh.cw.mapper.TichengMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.ossjk.qlh.cw.entity.Ticheng">
+		<result column="crtm" property="crtm" />
+		<result column="mdtm" property="mdtm" />
+		<result column="crer" property="crer" />
+		<result column="mder" property="mder" />
+		<result column="id" property="id" />
+		<result column="userid" property="userid" />
+		<result column="stuid" property="stuid" />
+		<result column="type" property="type" />
+		<result column="tctm" property="tctm" />
+		<result column="paydate" property="paydate" />
+		<result column="cost" property="cost" />
+		<result column="remark" property="remark" />
+	</resultMap>
+
+	<!-- 通用查询结果列 -->
+	<sql id="Base_Column_List">
+		crtm,
+		mdtm,
+		crer,
+		mder,
+		id,
+		userid,
+		stuid,
+		type,
+		tctm,
+		paydate,
+		cost,
+		remark
+	</sql>
+
+</mapper>
